@@ -1,17 +1,23 @@
 import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
+import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import '../App.css'
+import './App.css'
 import Navbar from './components/Navbar'
 import Counter from './components/Counter'
+import Greeting from './components/Greeting'
+import Profile from './components/profile'
+import Count from './components/Count'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Navbar />
-      <div>
+    <Count/>
+    {/* <Navbar /> */}
+    {/* <Greeting name="Josh" age="20" gender="male" isAdmin="false"/> */}
+    {/* <Profile /> */}
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -31,7 +37,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Counter count={count} fullname="Debora"/>
+      <Counter count={count} fullname="Debora"/> */}
     </>
   )
 }
