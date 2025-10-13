@@ -9,6 +9,8 @@ import Profile from './components/profile'
 import Count from './components/Count'
 import ParentComponent from './components/Props'
 import BlogPost from './components/BlogContent'
+import ColorSelector from './components/Color'
+import ColorList from './components/Lists'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
     <Count/>
     <ParentComponent />
     <BlogPost />
+    <ColorSelector />
+    <ColorList />
     {/* <Navbar /> */}
     {/* <Greeting name="Josh" age="20" gender="male" isAdmin="false"/> */}
     {/* <Profile /> */}
