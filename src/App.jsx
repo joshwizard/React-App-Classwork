@@ -7,6 +7,8 @@ import Counter from './components/Counter'
 import Greeting from './components/Greeting'
 import Profile from './components/profile'
 import Count from './components/Count'
+import ParentComponent from './components/Props'
+import BlogPost from './components/BlogContent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
   return (
     <>
     <Count/>
+    <ParentComponent />
+    <BlogPost />
     {/* <Navbar /> */}
     {/* <Greeting name="Josh" age="20" gender="male" isAdmin="false"/> */}
     {/* <Profile /> */}
