@@ -11,6 +11,9 @@ import ParentComponent from './components/Props'
 import BlogPost from './components/BlogContent'
 import ColorSelector from './components/Color'
 import ColorList from './components/Lists'
+import { MultiButton, Tickle } from './components/Tickle'
+import Change from './components/Change'
+import Login from './components/Login'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +25,11 @@ function App() {
     <BlogPost />
     <ColorSelector />
     <ColorList />
+    <Tickle />
+    <MultiButton />
+    <Change />
+    <Login />
+    
     {/* <Navbar /> */}
     {/* <Greeting name="Josh" age="20" gender="male" isAdmin="false"/> */}
     {/* <Profile /> */}
