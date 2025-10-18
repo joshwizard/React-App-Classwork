@@ -7,7 +7,6 @@ import Counter from './components/Counter'
 import Greeting from './components/Greeting'
 import Profile from './components/profile'
 import Count from './components/Count'
-import ParentComponent from './components/Props'
 import BlogPost from './components/BlogContent'
 import ColorSelector from './components/Color'
 import ColorList from './components/Lists'
@@ -15,6 +14,10 @@ import { MultiButton, Tickle } from './components/Tickle'
 import Change from './components/Change'
 import Login from './components/Login'
 import Toggle from './components/Toggle'
+import ParentComponent from './components/ParentComponent'
+import FormValidation from './components/FormValidation'
+
+
 // import Parent from './components/Parent'
 
 
@@ -23,10 +26,9 @@ function App() {
 
   return (
     <>
-    <Count/>
+    {/* <Count/> */}
     {/* <Parent /> */}
-    <ParentComponent />
-    <BlogPost />
+    {/* <BlogPost />
     <ColorSelector />
     <ColorList />
     <Tickle />
@@ -34,7 +36,9 @@ function App() {
     <Change />
     <Login />
     <Toggle />
-    <Counter />
+    <Counter /> */}
+    {/* <ParentComponent/> */}
+    <FormValidation />
 
     
     {/* <Navbar /> */}
