@@ -14,13 +14,17 @@ import ColorList from './components/Lists'
 import { MultiButton, Tickle } from './components/Tickle'
 import Change from './components/Change'
 import Login from './components/Login'
+import Toggle from './components/Toggle'
+// import Parent from './components/Parent'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
     <Count/>
+    {/* <Parent /> */}
     <ParentComponent />
     <BlogPost />
     <ColorSelector />
@@ -29,6 +33,9 @@ function App() {
     <MultiButton />
     <Change />
     <Login />
+    <Toggle />
+    <Counter />
+
     
     {/* <Navbar /> */}
     {/* <Greeting name="Josh" age="20" gender="male" isAdmin="false"/> */}
